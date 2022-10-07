@@ -1,6 +1,7 @@
-import Counter from "./Components/Counter";
+import Counter from "./Components/Counter/Counter";
+import Todo from "./Components/Todo/Todo";
 function App() {
-    return <Counter></Counter>;
+    return <Todo />;
 }
 
 export default App;
